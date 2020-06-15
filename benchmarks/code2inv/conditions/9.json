@@ -1,0 +1,1 @@
+{"preconds": ["(>= x 0)", "(<= x 2)", "(<= y 2)", "(>= y 0)"], "predicate": null, "postcondition": {"ifs": ["( not (= x 4))"], "assert": "( not (= y 0) )"}}

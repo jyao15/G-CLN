@@ -1,0 +1,1 @@
+{"preconds": ["(= i 1)", "(= j 20)"], "predicate": "( >= j i )", "postcondition": {"ifs": [], "assert": "( = j 13 )"}}

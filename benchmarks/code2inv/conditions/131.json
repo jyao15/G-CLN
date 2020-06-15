@@ -1,0 +1,1 @@
+{"preconds": ["(= d1 1)", "(= d2 1)", "(= d3 1)", "(= x1 1)"], "predicate": "( > x1 0 )", "postcondition": {"ifs": [], "assert": "( >= x3 0 )"}}

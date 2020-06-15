@@ -1,0 +1,1 @@
+{"preconds": ["(= x -15000)"], "predicate": "( < x 0 )", "postcondition": {"ifs": [], "assert": "( > y 0 )"}}

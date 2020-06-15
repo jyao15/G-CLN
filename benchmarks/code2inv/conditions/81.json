@@ -1,0 +1,1 @@
+{"preconds": ["(= i 0)", "(>= x 0)", "(>= y 0)", "(>= x y)"], "predicate": null, "postcondition": {"ifs": ["( not (< i y))"], "assert": "( <= 0 i )"}}

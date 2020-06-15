@@ -1,0 +1,1 @@
+{"preconds": ["(= c 0)"], "predicate": null, "postcondition": {"ifs": ["( not (< c 0))", "( not (> c 4))"], "assert": "( = c 4 )"}}

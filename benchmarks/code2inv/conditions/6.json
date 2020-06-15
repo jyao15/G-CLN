@@ -1,0 +1,1 @@
+{"preconds": ["(= x 0)"], "predicate": "( < x size )", "postcondition": {"ifs": ["( not (> size 0))"], "assert": "( >= z y )"}}

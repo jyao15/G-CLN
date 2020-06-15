@@ -1,0 +1,1 @@
+{"preconds": ["(= sn 0)", "(= i 1)"], "predicate": "( <= i n )", "postcondition": {"ifs": ["( not (not (= sn 0)))"], "assert": "( = sn n )"}}

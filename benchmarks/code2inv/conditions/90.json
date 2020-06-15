@@ -1,0 +1,1 @@
+{"preconds": ["(= y ( + x 1 ))", "(= lock 0)"], "predicate": "( not (= x y) )", "postcondition": {"ifs": [], "assert": "( = lock 1 )"}}

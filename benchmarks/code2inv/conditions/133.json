@@ -1,0 +1,1 @@
+{"preconds": ["(= x 0)", "(>= n 0)"], "predicate": "( < x n )", "postcondition": {"ifs": [], "assert": "( = x n )"}}

@@ -1,0 +1,1 @@
+{"preconds": ["(>= k 0)", "(>= n 0)", "(= i 0)", "(= j 0)"], "predicate": "( <= i n )", "postcondition": {"ifs": [], "assert": "( > ( + i ( + j k ) ) ( * 2 n ) )"}}

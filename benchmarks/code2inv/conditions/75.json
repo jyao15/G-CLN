@@ -1,0 +1,1 @@
+{"preconds": ["(= c 0)", "(>= y 0)", "(>= y 127)", "(= z ( * 36 y ))"], "predicate": null, "postcondition": {"ifs": ["( not (< c 36))"], "assert": "( < z 4608 )"}}

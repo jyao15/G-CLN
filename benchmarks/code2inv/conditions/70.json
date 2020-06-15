@@ -1,0 +1,1 @@
+{"preconds": ["(= x 1)"], "predicate": "( <= x n )", "postcondition": {"ifs": ["( not (> n 0))"], "assert": "( < y n )"}}

@@ -215,9 +215,9 @@ def check_nla_invariant(invariant, name, loop_idx=1, ctx_simplify=False):
     s = Solver()
     s.set("timeout", 10_000)
     invariant = z3.simplify(z3.And(invariant))
-    if ctx_simplify and (name in ('divbin', 'cohendiv', 'cohencu', 'mannadiv', 'hard', 'prodbin', 'prod4br', 'freire1') or (name in ('dijkstra') and loop_idx == 1)):
-        invariant = z3.Tactic("ctx-solver-simplify")(invariant).as_expr()
-        doc_invariant = z3.Tactic("ctx-solver-simplify")(doc_invariant).as_expr()
+    # if ctx_simplify and (name in ('divbin', 'cohendiv', 'cohencu', 'mannadiv', 'hard', 'prodbin', 'prod4br', 'freire1') or (name in ('dijkstra') and loop_idx == 1)):
+    #     invariant = z3.Tactic("ctx-solver-simplify")(invariant).as_expr()
+    #     doc_invariant = z3.Tactic("ctx-solver-simplify")(doc_invariant).as_expr()
     s.add(Not(Implies(invariant, doc_invariant)))
     res = s.check()
     if res == z3.unknown:

@@ -1,9 +1,9 @@
 # Gated CLN Loop Invariant Learning
 
 ## Setup Instructions (tested on ubuntu 18.04):
-1. Install miniconda for pyton 3.7: https://docs.conda.io/en/latest/miniconda.html
+1. Install miniconda for python 3.7: https://docs.conda.io/en/latest/miniconda.html
 2. Install pytorch `conda install pytorch cpuonly -c pytorch`
-  See https://pytorch.org/get-started/locally/ for other pytorch install options
+  See https://pytorch.org/get-started/locally/ for other pytorch install options. Tested with pytorch 1.4.
 3. Install other dependencies
 ```bash
 conda install pandas matplotlib
